@@ -1,3 +1,0 @@
-elizer,password
-andrew,pass123
-aaron,123
