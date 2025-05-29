@@ -287,7 +287,7 @@ public class HomeController implements Initializable {
             return false;
         }
 
-        String targetUsername = username;
+        String targetUsername = user.getUsername();
         String newPassword = password;
         String newStatus = status;
 
@@ -301,7 +301,7 @@ public class HomeController implements Initializable {
                     String[] parts = line.split(",");
 
                     if (parts.length == 4 && parts[0].equalsIgnoreCase(targetUsername)) {
-                        updatedLines.add(targetUsername + "," + newPassword + "," + user.getAccountcreated() + "," + newStatus);
+                        updatedLines.add(nametextfield.getText() + "," + newPassword + "," + user.getAccountcreated() + "," + newStatus);
                     } else {
                         updatedLines.add(line);
                     }
