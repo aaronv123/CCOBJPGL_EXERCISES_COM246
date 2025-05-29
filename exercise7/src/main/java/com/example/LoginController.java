@@ -36,7 +36,7 @@ public class LoginController {
         String username = nametextfield.getText();
         String password = passwordtextfield.getText();  
 
-        User user = new User(username, password, "", "");
+        user = new User(username, password, "", "");
 
         File accountsfile = new File("accounts.txt");
 
