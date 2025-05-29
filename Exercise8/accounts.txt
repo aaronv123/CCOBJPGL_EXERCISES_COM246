@@ -1,4 +1,0 @@
-elizer,123,05-18-2025,Active
-john,bruh,04-16-1998,Inactive
-jake,jake,01-05-2005,Active
-aaron,password,05-29-2025,Active
