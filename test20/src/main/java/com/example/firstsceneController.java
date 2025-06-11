@@ -9,4 +9,9 @@ public class firstsceneController {
     private void switchToLoginpage() throws IOException {
         App.setRoot("Loginpage");
     }
+
+    @FXML
+    private void switchToPhoneregister() throws IOException {
+        App.setRoot("phoneregister");
+    }
 }
