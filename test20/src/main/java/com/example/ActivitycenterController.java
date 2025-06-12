@@ -11,17 +11,17 @@ import javafx.scene.control.Button;
 import javafx.stage.Stage;
 import javafx.scene.Node;
 
-public class HomepageController {
-
+public class ActivitycenterController {
 
     @FXML
-    private Button ActivityCenterButton;
+    private Button HomeButton;
 
-@FXML
-private void Activitycenterhandle(ActionEvent event) throws IOException {
-    System.out.println("Activity Center Button Clicked");
-    App.setRoot("Activitycenter");
-}
+    @FXML
+    public void gohome(ActionEvent event) throws IOException {
+    System.out.println("Home Button Clicked");
+    App.setRoot("Homepage");
 
+ 
+    }
     
 }
