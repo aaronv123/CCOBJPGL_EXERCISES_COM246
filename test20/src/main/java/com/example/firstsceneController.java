@@ -14,4 +14,5 @@ public class firstsceneController {
     private void switchToPhoneregister() throws IOException {
         App.setRoot("phoneregister");
     }
+    
 }

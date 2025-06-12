@@ -10,7 +10,7 @@
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="335.0" style="-fx-background-color: #5e1916;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.firstsceneController">
    <children>
-      <Label fx:id="moveitloginsign" layoutX="100.0" layoutY="153.0" text="MOVE IT" textFill="WHITE" >
+      <Label fx:id="moveitloginsign" layoutX="110.0" layoutY="200.0" text="KAP IT" textFill="WHITE" >
          <font>
             <Font name="System Bold" size="33.0" />
          </font>

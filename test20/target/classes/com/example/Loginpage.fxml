@@ -16,16 +16,16 @@
         <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
             <children>
                 <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="73.0"
-                        text="Back" fx:id="BackButton" onAction="#switchTofirstscene" />
+                        text="Back" textFill="WHITE" style="-fx-background-color: black; -fx-background-radius: 500px;" fx:id="BackButton" onAction="#handleBack" />
 
                 <Label layoutX="46.0" layoutY="113.0" text="Username" />
                 <Label layoutX="46.0" layoutY="153.0" text="Password" />
 
-                <TextField layoutX="139.0" layoutY="109.0" prefHeight="25.0" prefWidth="152.0" />
-                <PasswordField layoutX="139.0" layoutY="149.0" prefHeight="25.0" prefWidth="152.0" />
+                <TextField text="username" fx:id="nametextfield" layoutX="139.0" layoutY="109.0" prefHeight="25.0" prefWidth="152.0" />
+                <PasswordField text="password" fx:id="passwordtextfield" layoutX="139.0" layoutY="149.0" prefHeight="25.0" prefWidth="152.0" />
 
-                <Button layoutX="38.0" layoutY="494.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="260.0"
-                        text="Login" />
+                <Button fx:id="loginButton" layoutX="38.0" layoutY="494.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="260.0"
+                        text="Login" textFill="WHITE" style="-fx-background-color: black; -fx-background-radius: 500px;" onAction="#loginButtonHandler"/>
             </children>
         </Pane>
     </center>
